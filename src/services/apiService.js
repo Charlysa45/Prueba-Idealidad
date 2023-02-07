@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const baseUrl = 'https://api.spotify.com/v1/browse'
-const token = 'BQBj-SeXtJgDXpssNYg5QhAggbcifdOCv0OdNPPl7ZCsmQxEFshEUSFte3MLwuwTRU7GAHuoS5vRHL3wJLvIKs1zsHMZXKeYttf3AAvKzGzkBmHP8hUpDgJ9Z8smp8nV4ggCDSth4Qyvi4YUHluySPt4cBVqRkhx6Z8e_Y72IeRQog'
+const token = 'BQCCkgSUoYEIbuITNw9ADIBTWtTY2_W_eT0Yo4IkLDcxs_XtSvYsrbonHzNQ6I95PsnejBUCtkELqpswEgszqJt-SY8EdVfFWWAAjIQFO3uZTNjVGFJFQ54aIiRTe4DOH1LQ99S1aVy56XUNfnqIYRXDRzav7bPoEP92ZkNi0ff4fg'
 
 export const getData = async(queryParam) => {
     const config = {
